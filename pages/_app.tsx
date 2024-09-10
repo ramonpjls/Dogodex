@@ -3,6 +3,7 @@ import { Provider } from 'react-redux';
 import { store } from '../store/store';
 import Header from '../components/Header';
 
+
 const MyApp = ({ Component, pageProps }: AppProps) => (
   <Provider store={store}>
     <div>

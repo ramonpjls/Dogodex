@@ -27,7 +27,7 @@ const BreedsPage = () => {
                         className={styles.breedItem}
                         onClick={() => handleBreedClick(breed)}
                     >
-                        {breed}
+                        <Typography variant="caption" component="span">{breed}</Typography>
                     </li>
                 ))}
             </ul>

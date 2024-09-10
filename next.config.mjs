@@ -10,6 +10,15 @@ const nextConfig = {
             },
         ],
     },
+    redirects() {
+        return [
+            {
+                source: '/',
+                destination: '/breeds',
+                permanent: true,
+            },
+        ]
+    },
 };
 
 export default nextConfig;
