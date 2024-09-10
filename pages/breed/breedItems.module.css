@@ -1,0 +1,53 @@
+.breedImagesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.imageList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.imageItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.imageItem img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.imageItem button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.imageItem button:hover {
+  background-color: #005bb5;
+}
